@@ -1,0 +1,18 @@
+{
+    "editor.lineNumbers": "relative",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.colorTheme": "Material Theme Darker",
+    "vim.foldfix": true,
+    "vim.hlsearch": true,
+    "vim.useSystemClipboard": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
