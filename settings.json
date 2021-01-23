@@ -6,13 +6,51 @@
     "workbench.colorTheme": "Material Theme Darker",
     "vim.foldfix": true,
     "vim.hlsearch": true,
+    "vim.leader": "<space>",
     "vim.useSystemClipboard": true,
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[javascriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "<leader>",
+                "y"
+            ],
+            "commands": [
+                "workbench.action.toggleEditorWidths"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "t"
+            ],
+            "commands": [
+                "workbench.action.toggleSidebarVisibility"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "e"
+            ],
+            "commands": [
+                "workbench.view.explorer"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "g"
+            ],
+            "commands": [
+                "workbench.scm.focus"
+            ]
+        }
+    ]
 }
